@@ -20,3 +20,6 @@ recorrer(Nodo,[]):-
         aceptacion(Nodo).
 
 dividir(Letra,[Letra|Resto],Resto).
+
+aggregate_all(count, is_man(X), Count).
+
